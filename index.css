@@ -1,0 +1,81 @@
+
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.board{
+    min-width: 23%;
+}
+
+.board-title-home {
+    width: 100%;
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.home-points-text{
+    margin: 0;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+    padding: 10px;
+    background: #080001;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.add-point-btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-point-btns-home{
+    width: 30%;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #9AABD8;
+    background-color: transparent;
+}
+
+.options-btns{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.newgame-btn{
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 30%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 8px;
+    text-align: center;
+    color: #9AABD8;
+    background-color: transparent;
+}
+
